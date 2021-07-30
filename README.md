@@ -52,7 +52,7 @@ We have provided you with a skeleton project that contains just the bare bones o
 ## Submission Rules
 
 1. You will have **two days** to complete the code challenge.
-2. Fork this repository to your own GitHub account, create a new branch for the code challenge and do your changes on the branch. When you are done, please create pull requests for your changes into main (**Without merging!**) so we can review the pull requests.
+2. Download this repository and create a new repository in your own GitHub account (**Don't Fork this repository!**), create a new branch for the code challenge and do your changes on the branch. When you are done, please create pull requests for your changes into main (**Without merging!**) so we can review the pull requests.
 3. There are many different possible solutions and approaches to implement the required business rules. We are not looking a specific solution but instead are more interested in your approach, how you've implemented your solution and how you structure & format your code.
 4. You should try to follow SOLID principles as a general guideline.
 5. The complete project must follow the MVVM design pattern.
