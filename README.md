@@ -15,7 +15,7 @@
 |-----------------	|------------------------------	|
 | Team            	| Apple Development Team       	|
 | Reports To      	| Head of Software Development 	|
-| Time Allocation 	| 2 days                       	|
+| Time Allocation 	| 45 minutes                       	|
 
 <hr/>
 
