@@ -52,10 +52,6 @@ class MoviesTableVC: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         viewModel.didSelectItem(at: indexPath.row, viewController: self)
     }
-
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 200
-    }
 }
 
 //MARK: - Private methods
@@ -75,5 +71,8 @@ private extension MoviesTableVC {
     func configureTableView() {
         tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
         tableView.allowsSelection = true
+        tableView.register(MoviesCell.self, forCellReuseIdentifier: Constants.cellIdentifier)
+        tableView.estimatedRowHeight = 100
+        tableView.rowHeight = UITableView.automaticDimension
     }
 }

@@ -1,0 +1,6 @@
+framework module Pods_SimplestreamTest_SimplestreamTestUITests {
+  umbrella header "Pods-SimplestreamTest-SimplestreamTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

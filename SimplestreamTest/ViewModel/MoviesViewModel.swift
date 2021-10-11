@@ -32,6 +32,7 @@ class MoviesViewModel: MoviesViewModelProtocol {
     let networkManager: NetworkManagerProtocol
     var currentVideos: [Video]?
     var currentTitle: String?
+    let url : String = "https://api.npoint.io/7fa288206895fb66528c"
 
     private lazy var player = AVPlayer()
     private lazy var playerViewController = AVPlayerViewController()
@@ -54,7 +55,7 @@ class MoviesViewModel: MoviesViewModelProtocol {
     
     func fetchData(completion: @escaping (VoidResult) -> Void) {
         
-        networkManager.fetchCategories(fromURLString: "") { (result) in
+        networkManager.fetchCategories(fromURLString: url) { (result) in
             switch result {
             case .success(let data):
                 do {
